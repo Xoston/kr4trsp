@@ -1,10 +1,8 @@
-﻿# Контрольная работа: FastAPI, Alembic, обработка ошибок, тесты
-
-## Установка
+﻿## Установка
 
     python -m venv .venv
-    source .venv/bin/activate  # Linux/macOS
-    .venv\Scripts\activate     # Windows
+    source .venv/bin/activate
+    .venv\Scripts\activate
     pip install -r requirements.txt
 
 ## Миграции
@@ -15,9 +13,8 @@
 
 ## Запуск
 
-    uvicorn app.main:app --reload
+    python run.py
 
 ## Тестирование
 
-    pytest tests/test_main.py -v
-    pytest tests/test_async.py -v
+    pytest -v
